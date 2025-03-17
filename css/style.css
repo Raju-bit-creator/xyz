@@ -1,0 +1,13 @@
+/* .first-heading {
+  color: brown;
+} */
+/* #first-heading {
+  color: brown;
+} */
+h1 {
+  color: brown;
+}
+.hero-image {
+  height: 200px;
+  width: 300px;
+}
