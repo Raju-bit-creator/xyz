@@ -4,10 +4,21 @@
 /* #first-heading {
   color: brown;
 } */
-h1 {
-  color: brown;
+.first-title {
+  color: rgb(225, 17, 17);
 }
+.first-title span {
+  color: #351f85;
+  font-size: 80px;
+}
+
 .hero-image {
   height: 200px;
   width: 300px;
+}
+.bold-text {
+  font-size: 50px;
+}
+.unorder {
+  list-style: none;
 }
