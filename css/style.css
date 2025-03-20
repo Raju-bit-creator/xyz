@@ -22,3 +22,10 @@
 .unorder {
   list-style: none;
 }
+.first-ul {
+  display: flex;
+  list-style: none;
+}
+.first-ul li {
+  margin-right: 10px;
+}
