@@ -11,9 +11,12 @@
   </head>
   <body>
     <script src="./js/index.js"></script>
+
+    <!-- navbar -->
     <div class="main-header">
-      <div class="log">
-        <img style="height: 60px;" src="./assets/logo1.png" alt="logo" />
+      <div class="logo">
+        <img style="height: 60px;" src="./assets/logo2.png" alt="logo Image" />
+        <h>Company Name</h>
       </div>
       <div>
         <ul class="first-ul">
@@ -23,8 +26,9 @@
           <li>Contact</li>
         </ul>
       </div>
-
-   
+      <div>
+        <button class="btn btn-success">Get A Quote</button>
+      </div>   
     </div>
    
 
@@ -57,11 +61,11 @@
 
     <!-- JS dom - important -->
     <button class="btn btn-success" id="myButton">Click me ! for surprise greetings</button>
-    <p class="first-para" id="demo"></p>
+    <p class="first-para" id="myPara"></p>
     <script>
-      const sister = document.getElementById("myButton");
-      const demo= document.getElementById("demo")
-      sister.addEventListener("click", function() {
+      const button = document.getElementById("myButton");
+      const demo= document.getElementById("myPara")
+      button.addEventListener("click", function() {
         demo.textContent = "Good afternoon all!!";
       })
     </script>

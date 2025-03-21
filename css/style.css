@@ -25,7 +25,17 @@
 .first-ul {
   display: flex;
   list-style: none;
+  margin-top: revert;
 }
 .first-ul li {
-  margin-right: 10px;
+  margin-right: 20px;
+}
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  background: #a59a9a;
+  padding: 0px 20px;
+}
+.btn {
+  margin-top: 11px;
 }
