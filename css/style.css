@@ -39,3 +39,15 @@
 .btn {
   margin-top: 11px;
 }
+.ram {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+td {
+  padding: 5px 10px;
+  border: 2px solid #000;
+}
+thead {
+  background: #a59a9a;
+}

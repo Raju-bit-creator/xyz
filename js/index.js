@@ -12,3 +12,9 @@
 
 // let yourPromt = prompt("entery your good name");
 // console.log(yourPromt);
+
+const button = document.getElementById("myButton");
+const demo = document.getElementById("myPara");
+button.addEventListener("click", function () {
+  demo.textContent = "Good afternoon all!!";
+});
