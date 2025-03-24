@@ -47,7 +47,17 @@
 td {
   padding: 5px 10px;
   border: 2px solid #000;
+  text-align: center;
 }
 thead {
   background: #a59a9a;
+}
+table {
+  width: 50%;
+}
+.company-name {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 60px;
 }
