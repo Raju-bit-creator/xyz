@@ -61,3 +61,28 @@ table {
   font-style: normal;
   font-size: 60px;
 }
+.dog img {
+  width: 100%;
+}
+.partition {
+  display: flex;
+}
+/* mobile  */
+
+/* tab  */
+@media only screen and (max-width: 992px) {
+  .dog-button {
+    background: blue !important;
+  }
+}
+/* medium device like mac book  */
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+}
+@media only screen and (max-width: 768px) {
+  .dog-button {
+    background: red !important;
+  }
+  .company-name {
+    display: none;
+  }
+}
