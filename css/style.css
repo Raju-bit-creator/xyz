@@ -67,6 +67,31 @@ table {
 .partition {
   display: flex;
 }
+.dog-content h4:hover {
+  color: #f85e05;
+}
+.card-one:hover {
+  background: #351f85;
+  color: white;
+  transition: all;
+  cursor: pointer;
+}
+.card-one {
+  margin: 0px 20px 0px 0px;
+}
+.card-content {
+  display: flex;
+}
+.custom-button {
+  background: green;
+  color: #fff;
+  padding: 8px 13px;
+  border-radius: 5px;
+  border: none;
+}
+.custom-button-content {
+  margin-top: 10px;
+}
 /* mobile  */
 
 /* tab  */
