@@ -63,6 +63,7 @@ table {
 }
 .dog img {
   width: 100%;
+  border-radius: 20px;
 }
 .partition {
   display: flex;
@@ -92,6 +93,68 @@ table {
 .custom-button-content {
   margin-top: 10px;
 }
+.card-body {
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+.parent-box {
+  display: flex;
+}
+.box1 {
+  width: 200px;
+  height: 200px;
+  background: #000;
+  color: white;
+  position: relative;
+}
+.box2 {
+  width: 200px;
+  height: 200px;
+  background: #b41616;
+  color: white;
+  margin-left: -10px;
+  position: absolute;
+}
+.box3 {
+  width: 200px;
+  height: 200px;
+  background: #16b455;
+  color: white;
+
+  left: 50%;
+}
+.three h4 {
+  color: #fff !important;
+  position: absolute;
+  z-index: 111;
+}
+.three:before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 0;
+  background: #000;
+}
+
+.three:after {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  right: 0;
+  background: #fdbe33;
+}
+/* .before-after::before {
+  content: "";
+  width: 50%;
+  background: #b41616;
+}
+.before-after::after {
+  content: "";
+  width: 50%;
+  background: #16b455;
+} */
 /* mobile  */
 
 /* tab  */
