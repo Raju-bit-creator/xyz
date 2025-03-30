@@ -137,23 +137,45 @@ table {
   background: #000;
 }
 .one {
-  background: url(../assets/wall.jpg);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  /* background: url(../assets/wall.jpg); */
+  background: #fff;
+
   background-size: cover;
   position: relative;
 
   padding: 80px 0px;
 }
-.three:after {
+.one .small-heading {
+  color: #348ea2;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+.one .main-heading {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 800;
+  font-family: "Poppins";
+}
+.one p {
+  font-family: "Poppins";
+  font-size: 16px;
+  line-height: 25px;
+  /* font-style: italic; */
+}
+.one .article {
+  font-size: 16px;
+  color: #000;
+  font-family: "Poppins";
+  line-height: 25px;
+}
+/* .three:after {
   content: "";
   position: absolute;
   width: 50%;
   height: 10%;
   right: 0;
   background: #fdbe33;
-}
+} */
 /* .before-after::before {
   content: "";
   width: 50%;
