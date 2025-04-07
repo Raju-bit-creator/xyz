@@ -54,3 +54,5 @@ if (!scorchinSun || !isRainy) {
 // arithmetic
 // comparison < <= > >=  , == ,===
 // logical  &&  || !
+
+// using all three loops calculate the multiplication table of 2 upto 10 : assignment
