@@ -136,3 +136,62 @@ let cartItems1 = [
     ],
   },
 ];
+
+let cartItems2 = [
+  {
+    name: "apple",
+    price: 100,
+    quantity: 2,
+  },
+  {
+    name: "Mango",
+    price: 10,
+    quantity: 5,
+  },
+  {
+    name: "Banana",
+    price: 10,
+    quantity: 3,
+  },
+  {
+    name: "Grapes",
+    price: 100,
+    quantity: 2,
+  },
+  {
+    name: "straberry",
+    price: 50,
+    quantity: 2,
+  },
+];
+
+// const total = cartItems2.reduce(
+//   (acc, curr) => acc + curr.price * curr.quantity,
+//   0
+// );
+// console.log("total of cartitems2 is: ", total);
+
+const total = cartItems2
+  .slice(0, 3)
+  .reduce((acc, curr) => acc + curr.price * curr.quantity, 0);
+console.log("total of cartitems2 is: ", total);
+
+let number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let popNumber = number.pop();
+console.log(number);
+
+let num1 = [1, 2, 3, 4, 5];
+let pushNum = num1.push(6, 7, 8);
+console.log(num1);
+
+// shift
+let num2 = [1, 2, 3, 4, 5];
+let shiftNum = num2.shift();
+console.log(num2);
+
+//unshift
+let num3 = [1, 2, 3, 4, 5];
+let unshiftNum = num3.unshift(6, 7, 8);
+console.log(num3);
+
+// assignment to explore array methods splice , indexOf , findIndex , includes
