@@ -194,4 +194,4 @@ let num3 = [1, 2, 3, 4, 5];
 let unshiftNum = num3.unshift(6, 7, 8);
 console.log(num3);
 
-// assignment to explore array methods splice , indexOf , findIndex , includes
+// assignment to explore array methods splice , indexOf , findIndex , includes Math.ceil() math.floor()

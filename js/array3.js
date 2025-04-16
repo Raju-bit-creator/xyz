@@ -64,3 +64,50 @@ const maskNumber = (accoutNumber) => {
 
 const bankAccoutNumber = "122334455667778788";
 console.log(maskNumber(bankAccoutNumber));
+
+let users = [
+  { name: "John", role: "admin" },
+  { name: "Jane", role: "user" },
+  { name: "Bob", role: "admin" },
+  { name: "Alice", role: "user" },
+];
+// let grouped = Object.groupBy(users, ({ role }) => role);
+// console.log(grouped);
+
+let admin = [];
+let user1 = [];
+users.forEach((user) => {
+  if (user.role === "admin") {
+    admin.push(user);
+  } else {
+    user1.push(user);
+  }
+});
+console.log(admin);
+console.log(user1);
+
+// what is palindrome??
+// a word, phrase, number, or other sequence of characters that reads the same forward and backward
+const generatePalindrome = (n, k) => {
+  if (k > 26) {
+    return "k should be less than 26";
+  }
+  let char = "abcdefghijklmnopqrstuvwxyz".slice(0, k);
+  let result = new Array(n); //creating instance
+
+  for (let i = 0; i < Math.ceil(n / 2); i++) {
+    result[i] = char[i % k];
+    result[n - i - 1] = result[i];
+  }
+  return result.join("");
+};
+console.log(generatePalindrome(10, 3));
+
+//  fibonacci series
+let num = 5;
+
+let fib = [0, 1];
+for (let i = 2; i <= num; i++) {
+  fib.push(fib[i - 1] + fib[i - 2]);
+}
+console.log(fib);
