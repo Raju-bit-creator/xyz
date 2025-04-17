@@ -101,7 +101,7 @@ const generatePalindrome = (n, k) => {
   }
   return result.join("");
 };
-console.log(generatePalindrome(10, 3));
+console.log(generatePalindrome(10, 5));
 
 //  fibonacci series
 let num = 5;
