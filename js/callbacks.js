@@ -50,3 +50,13 @@ const fetchData2 = async () => {
 };
 
 fetchData2();
+
+function mutateArray(arr, action) {
+  for (let i = 0; i < arr.length; i++) {
+    arr[i] = action(arr[i]);
+  }
+}
+const array = [1, 2, 3, 4, 5];
+mutateArray(array, (x) => x * 2);
+
+console.log(array);
