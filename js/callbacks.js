@@ -51,12 +51,11 @@ const fetchData2 = async () => {
 
 fetchData2();
 
-function mutateArray(arr, action) {
+const mutateArray = (arr, action) => {
   for (let i = 0; i < arr.length; i++) {
     arr[i] = action(arr[i]);
   }
-}
-const array = [1, 2, 3, 4, 5];
-mutateArray(array, (x) => x * 2);
-
-console.log(array);
+};
+let array = [1, 2, 3, 4, 5];
+mutateArray(array, (num) => num * 3);
+console.log("this is result array: ", array);
