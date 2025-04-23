@@ -11,3 +11,4 @@ let sumArrow = (a, b) => {
 };
 let resultArrow = sumArrow(5, 7);
 console.log("this is arrow result", resultArrow);
+///
