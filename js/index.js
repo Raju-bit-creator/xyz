@@ -42,3 +42,7 @@ console.log("End of the script.");
 ///
 //dfdsfdsfsdf
 ///hello chaitra group
+
+// git config --global user.name "your name"
+
+// git config --global user.email "your email"
